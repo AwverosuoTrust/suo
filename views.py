@@ -1,3 +1,11 @@
+#i have a model called profile, which has a one to one relationship with the User model, it has a field called point, i want the point 
+#field/column to be increamented by 2 when a user visits a particular url. i want it to be updated and displayed in the user profile
+#i also want a button in the admin pannel , which will make the point of al users to be equal to zero once it is clicked
+#my main aim is to let every user be aware how many page he or she has viewed..
+#and should be reset to zero with a button when ever the admin wants
+
+#this is my views.py file
+
 from django.shortcuts import render,redirect, get_object_or_404
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
