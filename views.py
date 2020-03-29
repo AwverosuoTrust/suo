@@ -62,8 +62,8 @@ def profile(request):
 
 
 
-
-def point(request):
+#this is the function where i want the point field to increase by two once a user visits the url, but i dont know how to go about  it
+def point(request)
     model = profile
     if request.method == 'POST':
         user_profile = get_object_or_404(profile, id=request.user.id)
